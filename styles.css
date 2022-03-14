@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Outfit&family=Smooch+Sans&family=Space+Mono&family=Syne+Mono&family=Ubuntu&display=swap');
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #CC9544;
+    max-width: 100%;
+    margin: 0;
+}
+header{
+    margin: 10% 0;
+}
+header .big-header{
+    font-family: 'Syne Mono', monospace;
+    text-transform: uppercase;
+    font-size : 3rem;
+    color: #1C0A00;
+}
+header .small-header{
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 10px;
+    color: #1C0A00;
+}
+/* Main Time */
+#mainStopWatch .mainTime{
+    width: 300px;
+    height: 300px;
+    margin: 30% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #1C0A00;
+    border-radius: 100%;
+}
+
+#mainStopWatch span{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1C0A00;
+}
+/* Buttons */
+button{
+    cursor: pointer;
+    outline: none;
+    border: 5px solid #1C0A00;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 10px;
+}
+button:hover{
+    background-color: #1C0A00;
+}
+button:hover .icon{
+    color: #CC9544;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.icon{
+   color: #1C0A00;
+}
+
+footer{
+    padding: 15% 0 2%;
+}
+footer p{
+    font-family: 'Syne Mono', monospace;
+}
+
+@media(min-width : 550px){
+    #mainStopWatch .mainTime{
+        margin: 5% auto;
+    }
+    header{
+        margin: 3% 0;
+    }
+}
